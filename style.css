@@ -10,7 +10,8 @@ body {
 
 h1 {
   color: #f1faee;
-}
+  font-family: "Archivo Black", sans-serif;
+  }
 
 .container {
   height: 70vh;
@@ -49,8 +50,14 @@ h1 {
     font-size: 1.25rem;
     background-color: #1D3557;
     color: #F1FAEE;
+    box-shadow: 0 1rem 0 rgba(0,0,0,0.3);
     border-radius: 1rem;
     border: none;
+  }
+  #reset-btn:active{
+    box-shadow: none;
+    transform: translate(3px);
+
   }
 
   #new-btn {
@@ -58,13 +65,19 @@ h1 {
     font-size: 1.25rem;
     background-color: #1D3557;
     color: #F1FAEE;
+    box-shadow: 0 1rem 0 rgba(0,0,0,0.3);
     border-radius: 1rem;
     border: none;
+  }
+  #new-btn:active{
+    box-shadow: none;
+    transform: translate(3px);
   }
 
   #msg {
     color: #A8DADC;
     font-size: 5vmin;
+    font-family: "Archivo Black", sans-serif;
   }
   
   .msg-container {
