@@ -11,12 +11,12 @@ body {
 h1 {
   color: #f1faee;
   font-family: "Archivo Black", sans-serif;
-  }
+}
 
 .container {
   height: 70vh;
   display: flex;
-  
+
   justify-content: center;
   align-items: center;
 }
@@ -36,59 +36,59 @@ h1 {
   width: 18vmin;
   border-radius: 1rem;
   border: none;
-  box-shadow: 0 1rem 0 rgba(0,0,0,0.3);
+  box-shadow: 0 1rem 0 rgba(0, 0, 0, 0.3);
   font-size: 8vmin;
-  color: #457B9D;
+  color: #457b9d;
+  background-color: #f1faee;
 }
-.box:active{
-    box-shadow: none;
-    transform: translate(3px);
+.box:active {
+  box-shadow: none;
+  transform: translate(3px);
 }
 
 #reset-btn {
-    padding: 1rem;
-    font-size: 1.25rem;
-    background-color: #1D3557;
-    color: #F1FAEE;
-    box-shadow: 0 1rem 0 rgba(0,0,0,0.3);
-    border-radius: 1rem;
-    border: none;
-  }
-  #reset-btn:active{
-    box-shadow: none;
-    transform: translate(3px);
+  padding: 1rem;
+  font-size: 1.25rem;
+  background-color: #1d3557;
+  color: #f1faee;
+  box-shadow: 0 1rem 0 rgba(0, 0, 0, 0.3);
+  border-radius: 1rem;
+  border: none;
+}
+#reset-btn:active {
+  box-shadow: none;
+  transform: translate(3px);
+}
 
-  }
+#new-btn {
+  padding: 1rem;
+  font-size: 1.25rem;
+  background-color: #1d3557;
+  color: #f1faee;
+  box-shadow: 0 1rem 0 rgba(0, 0, 0, 0.3);
+  border-radius: 1rem;
+  border: none;
+}
+#new-btn:active {
+  box-shadow: none;
+  transform: translate(3px);
+}
 
-  #new-btn {
-    padding: 1rem;
-    font-size: 1.25rem;
-    background-color: #1D3557;
-    color: #F1FAEE;
-    box-shadow: 0 1rem 0 rgba(0,0,0,0.3);
-    border-radius: 1rem;
-    border: none;
-  }
-  #new-btn:active{
-    box-shadow: none;
-    transform: translate(3px);
-  }
+#msg {
+  color: #a8dadc;
+  font-size: 5vmin;
+  font-family: "Archivo Black", sans-serif;
+}
 
-  #msg {
-    color: #A8DADC;
-    font-size: 5vmin;
-    font-family: "Archivo Black", sans-serif;
-  }
-  
-  .msg-container {
-    height: 100vmin;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 4rem;
-  }
-  
-  .hide {
-    display: none;
-  }
+.msg-container {
+  height: 100vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.hide {
+  display: none;
+}
