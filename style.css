@@ -37,7 +37,7 @@ h1 {
   border-radius: 1rem;
   border: none;
   box-shadow: 0 1rem 0 rgba(0, 0, 0, 0.3);
-  font-size: 8vmin;
+  font-size: 10vmin;
   color: #457b9d;
   background-color: #f1faee;
 }
@@ -54,6 +54,8 @@ h1 {
   box-shadow: 0 1rem 0 rgba(0, 0, 0, 0.3);
   border-radius: 1rem;
   border: none;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 #reset-btn:active {
   box-shadow: none;
@@ -75,8 +77,8 @@ h1 {
 }
 
 #msg {
-  color: #a8dadc;
-  font-size: 5vmin;
+  color: #f1faee;
+  font-size: 9vmin;
   font-family: "Archivo Black", sans-serif;
 }
 
@@ -87,6 +89,16 @@ h1 {
   align-items: center;
   flex-direction: column;
   gap: 4rem;
+}
+@media (min-width: 200px) and (max-width: 300px) {
+  .msg-container {
+    height: 200vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+  }
 }
 
 .hide {
